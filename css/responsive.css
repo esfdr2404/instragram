@@ -1,0 +1,35 @@
+/* @media (max-width:576px)  {
+   .banner-text h1 {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #1E1E1E;
+    }
+    .btn-danger {
+    padding: 0px 24px;
+    font-size: 14px;
+    }
+    #insta_work {
+    margin: 50px 0px;
+    }
+    .section_Heading h2 {
+    font-size: 30px;
+    font-weight: 500;
+    }
+    .section_Heading p {
+    padding-bottom: 60px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .large{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+}
+
+@media  (max-width:767px) {
+    
+}
+ */

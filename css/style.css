@@ -1,0 +1,137 @@
+body{
+    font-family: "Open Sans", serif;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.btn-danger{
+    background-color: #FF0027;
+    padding: 0px 42px;
+}
+
+.navbar-nav{
+    gap: 0px 60px;
+}
+.active{
+    color: #FF0027 !important;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner-text h1{
+    font-size: 65px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+.banner-text h1 span{
+    color: #FF0027;
+    font-weight: 800;
+}
+.banner-text p{
+    color: #787878;
+    width: 394px;
+}
+#insta_work{
+    margin: 150px 0px;
+}
+svg.svg-inline--fa.fa-arrow-right {
+    font-size: 50px;
+    color: red;
+    position: absolute;
+    top: 226px;
+    left: 201px;
+}
+svg.svg-inline--fa.fa-arrow-left {
+    font-size: 50px;
+    color: red;
+    position: absolute;
+    top: 226px;
+    left: -55px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FF0027;
+}
+.carousel-indicators {
+    bottom: -60px;
+}
+
+.section_Heading h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.section_Heading p{
+    padding-bottom: 60px;
+    width: 750px;
+    margin: 0 auto;
+}
+.work_content {
+    padding: 87px 60px;
+    box-shadow: 2px 2px 8px 4px rgb(0 0 0 / 4%);
+    border-radius: 30px;
+    width: 424px;
+}
+.work_content h3{
+   padding: 42px 0px 30px 0px ;
+}
+.accordion{
+    border-radius: 20px !important;
+}
+.accordion-header{
+     border-radius: 20px !important;
+}
+/* .accordion-item{
+    border-radius: 20px !important;
+     border: 1px solid #E8E8E8 !important;
+     margin-top: 20px;
+} */
+.accordion-button {
+  padding: 38px;
+  border-radius: 20px !important;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #FF0027;
+    background-color: #fff;
+}
+.accordion-button::after {  
+    background-image: url("/images/pluss.png");
+}
+.accordion-button:not(.collapsed)::after {
+    background-image:  url('/images/minus.png');
+    
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.small{
+    display: none;
+}
+.large{
+    display: block;
+}
+/* .accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FF0027;
+    background-color: white;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("/images/minus.png");
+    
+}
+.accordion-button::after {
+      background-image: url("/images/pluss.png");
+} */
